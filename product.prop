@@ -6,7 +6,7 @@ ro.surface_flinger.max_frame_buffer_acquired_buffers=3
 bluetooth.samsung_samplerate.supported=true
 
 # Telephony
-ro.telephony.default_network=10,10
+ro.telephony.default_network=9,9
 
 # Bluetooth
 ro.bluetooth.a2dp_offload.supported=false
