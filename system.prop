@@ -39,3 +39,6 @@ persist.sys.binary_xml=false
 
 # Disable priv-app permissions
 ro.control_privapp_permissions=disable
+
+# Pre-Rendering
+ro.vendor.perf.scroll_opt=true
