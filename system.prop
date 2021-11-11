@@ -36,3 +36,6 @@ persist.sys.binary_xml=false
 #persist.sys.usb.config=mtp,adb
 #ro.debuggable=1
 #ro.adb.secure=0
+
+# Priv-App Permissions
+ro.control_privapp_permissions=log
