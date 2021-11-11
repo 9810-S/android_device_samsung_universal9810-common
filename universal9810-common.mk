@@ -69,6 +69,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Snap
 
+# SELinux
+SELINUX_IGNORE_NEVERALLOWS := true
+
 # Net
 PRODUCT_PACKAGES += \
     netutils-wrapper-1.0
