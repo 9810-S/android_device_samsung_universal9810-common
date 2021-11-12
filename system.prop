@@ -42,3 +42,6 @@ ro.control_privapp_permissions=disable
 
 # Pre-Rendering
 ro.vendor.perf.scroll_opt=true
+
+# Debug
+debug.sf.latch_unsignaled=0
