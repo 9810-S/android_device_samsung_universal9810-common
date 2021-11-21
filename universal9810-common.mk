@@ -96,5 +96,8 @@ PRODUCT_COPY_FILES += \
 # Soong
 PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
 
+# Disable APEX compression
+PRODUCT_COMPRESSED_APEX := false
+
 # Call proprietary blob setup
 $(call inherit-product, vendor/samsung/universal9810-common/universal9810-common-vendor.mk)
