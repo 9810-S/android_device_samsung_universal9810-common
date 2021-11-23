@@ -35,6 +35,11 @@
         control the display in this mode. -->
     <bool name="doze_suspend_display_state_supported">true</bool>
 
+    <!-- Should we vibrate on an icon animation of the shelf.
+         This should only be active if the vibrator is capable
+         of subtle vibrations -->
+    <bool name="config_vibrateOnIconAnimation">true</bool>
+
     <!-- Override audio panel location to the left side -->
     <bool name="config_audioPanelOnLeftSide">true</bool>
 </resources>
