@@ -22,3 +22,7 @@ ro.product.first_api_level=29
 
 # Disable priv-app permissions
 ro.control_privapp_permissions=disable
+
+# Vulkan and EGL
+ro.hardware.egl=mali
+ro.hardware.vulkan=mali
