@@ -91,7 +91,7 @@ PRODUCT_COPY_FILES += \
 
 # liboemcrypto.so
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/null:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/liboemcrypto.so
+    $(LOCAL_PATH)/vendor-overlay/lib/null:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/liboemcrypto.so
 
 # Soong
 PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
