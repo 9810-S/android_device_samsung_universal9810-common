@@ -37,6 +37,9 @@ persist.sys.binary_xml=false
 #ro.debuggable=1
 #ro.adb.secure=0
 
+# IORap
+persist.device_config.runtime_native_boot.iorap_readahead_enable=true
+
 # Disable priv-app permissions
 ro.control_privapp_permissions=disable
 
