@@ -26,3 +26,4 @@ ro.control_privapp_permissions=disable
 # Vulkan and EGL
 ro.hardware.egl=mali
 ro.hardware.vulkan=mali
+debug.hwui.renderer=skiavk
