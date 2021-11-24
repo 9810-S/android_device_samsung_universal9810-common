@@ -91,7 +91,7 @@ PRODUCT_COPY_FILES += \
 
 # liboemcrypto.so
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/vendor-overlay/lib/null:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/liboemcrypto.so
+    $(LOCAL_PATH)/proprietary/lib/liboemcrypto.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/liboemcrypto.so
 
 # Vulkan and OpenGLES
 PRODUCT_COPY_FILES += \
@@ -103,8 +103,8 @@ PRODUCT_COPY_FILES += \
 
 # Vulkan Libs
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/vendor-overlay/lib/vulkan.mali.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vulkan.mali.so \
-    $(LOCAL_PATH)/vendor-overlay/lib64/vulkan.mali.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vulkan.mali.so
+    $(LOCAL_PATH)/proprietary/lib/vulkan.mali.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vulkan.mali.so \
+    $(LOCAL_PATH)/proprietary/lib64/vulkan.mali.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vulkan.mali.so
 
 # Display Device Config
 PRODUCT_COPY_FILES += \
