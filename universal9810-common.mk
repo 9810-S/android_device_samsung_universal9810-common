@@ -103,8 +103,8 @@ PRODUCT_COPY_FILES += \
 
 # Vulkan Libs
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/vendor-overlay/lib/vulkan.mali.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/vulkan.mali.so \
-    $(LOCAL_PATH)/vendor-overlay/lib64/vulkan.mali.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/vulkan.mali.so
+    $(LOCAL_PATH)/vendor-overlay/lib/vulkan.mali.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vulkan.mali.so \
+    $(LOCAL_PATH)/vendor-overlay/lib64/vulkan.mali.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vulkan.mali.so
 
 # Display Device Config
 PRODUCT_COPY_FILES += \
