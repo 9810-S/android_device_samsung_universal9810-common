@@ -101,6 +101,11 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.vulkan.level-0.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/etc/permissions/android.hardware.vulkan.level.xml \
     frameworks/native/data/etc/android.hardware.vulkan.compute-0.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/etc/permissions/android.hardware.vulkan.compute.xml
 
+# Vulkan Libs
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/vendor-overlay/lib/vulkan.mali.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/vulkan.mali.so \
+    $(LOCAL_PATH)/vendor-overlay/lib64/vulkan.mali.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/vulkan.mali.so
+
 # Display Device Config
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/display_id_0.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/etc/displayconfig/display_id_0.xml
