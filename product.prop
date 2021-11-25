@@ -27,6 +27,9 @@ ro.control_privapp_permissions=disable
 ro.hardware.egl=mali
 ro.hardware.vulkan=mali
 debug.hwui.renderer=skiavk
+ro.hwui.use_vulkan=true
+graphics.gpu.profiler.support=true
+renderthread.skia.reduceopstasksplitting=true
 
 # Zygote preforking
 persist.device_config.runtime_native.usap_pool_enabled=false
