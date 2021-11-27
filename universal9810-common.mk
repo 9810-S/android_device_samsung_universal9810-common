@@ -40,10 +40,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.recovery.samsungexynos9810.rc
 
-# Bromite WebView
-PRODUCT_PACKAGES += \
-    bromite-webview
-
 # Audio
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio_effects.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/etc/audio_effects.xml \
