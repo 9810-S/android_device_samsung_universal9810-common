@@ -105,13 +105,6 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.vulkan.level-0.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/etc/permissions/android.hardware.vulkan.level.xml \
     frameworks/native/data/etc/android.hardware.vulkan.compute-0.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/etc/permissions/android.hardware.vulkan.compute.xml
 
-# HWC Libs
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/lib/hwcomposer.exynos9810.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/hwcomposer.exynos9810.so \
-    $(LOCAL_PATH)/proprietary/lib/libExynosHWCService.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libExynosHWCService.so \
-    $(LOCAL_PATH)/proprietary/lib64/hwcomposer.exynos9810.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/hwcomposer.exynos9810.so \
-    $(LOCAL_PATH)/proprietary/lib64/libExynosHWCService.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libExynosHWCService.so
-
 # Vulkan Libs
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/vulkan.mali.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/vulkan.mali.so \
